@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+
+    font-size: 62.5%;
+}
+
+body{
+    background-color: hsla(0, 0%, 0%, 0.992);
+    background-image: url("https://t3.ftcdn.net/jpg/06/15/60/22/360_F_615602217_j2Qsk4subVemGJn1DIJxSW6j8n6LDeUG.jpg");
+    background-size: 100% 100vh; 
+    background-repeat: no-repeat;
+   
+}
+
+.container{
+    color: #ffffff;
+    padding-left: 1rem;
+    padding-top: 4rem;
+    width: 98%;
+    height: 53vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+#stopwatch{
+    font-size: 9rem;
+    font-weight: 600;
+    margin-top: 15rem;
+    border-radius: 1.5rem; 
+    padding: 4rem;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    padding-bottom: 5rem;
+   
+}
+
+.Startbtn{
+    font-size: 3.5rem;
+    background-color: #42e242 ;
+    color: black;
+    margin-right: 4rem;
+    border: .2rem solid black;
+    border-radius: 1.2rem;
+    padding: .7rem;   
+    cursor: pointer;
+    font-weight: bold;
+}
+
+
+.Stopbtn{
+    font-size: 3.5rem;
+    background-color: #de2e2e;
+    color: black;
+    margin-right: 4rem;
+    border: .2rem solid black;
+    border-radius: 1.5rem;
+    padding: 1rem;   
+    cursor: pointer;
+    font-weight: bold;
+}
+
+
+.Resetbtn{
+    font-size: 3.5rem;
+    background-color: #30a6d4;
+    color: black;
+    margin-right: 4rem;
+    border: .2rem solid black;
+    border-radius: 1.2rem;
+    padding: 1rem;   
+    cursor: pointer;
+    font-weight: bold;
+}
+
+
+@media(max-width:998px){
+    html{
+        font-size:55%
+    }
+}
+
+@media(max-width:768px){
+    html{
+        font-size:45%
+    }
+}
+
+@media(max-width:480px){
+    html{
+        font-size:40%
+    }
+}
